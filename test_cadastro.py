@@ -20,4 +20,4 @@ def test_cadastro_email_invalido():
 def test_cadastro_campos_obrigatorios():
     sistema = CadastroSystem()
     resultado = sistema.cadastrar("", "", "")
-    assert resultado == "Campos obrigatórios"p
+    assert resultado == "Campos obrigatórios"
